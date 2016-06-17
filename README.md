@@ -11,7 +11,9 @@ Works best with MIDI keyboards, but you can use your computer keyboard too!
 ```bash
 git clone https://github.com/rileyjshaw/virtuoso.git
 cd virtuoso
-npm i
+git submodule init
+git submodule update
+npm i && npm i --prefix node-midi
 ```
 
 ## Usage
