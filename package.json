@@ -1,0 +1,32 @@
+{
+  "name": "virtuoso",
+  "version": "1.0.0",
+  "description": "Play a .mid file at your own speed using a MIDI keyboard!",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileyjshaw/virtuoso.git"
+  },
+  "keywords": [
+    "MIDI",
+    "piano",
+    "keyboard",
+    "music",
+    "audio",
+    "control",
+    "rhythm"
+  ],
+  "author": "rileyjshaw <i@rileyjshaw.com> (http://rileyjshaw.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rileyjshaw/virtuoso/issues"
+  },
+  "homepage": "https://github.com/rileyjshaw/virtuoso#readme",
+  "dependencies": {
+    "inquirer": "^1.0.3",
+    "midi-file": "^1.0.2"
+  }
+}
