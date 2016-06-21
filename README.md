@@ -6,6 +6,8 @@ the notes for you; just relax and hit the rhythm.
 
 Works best with MIDI keyboards, but you can use your computer keyboard too!
 
+**Requires Node.js v6.0.0 or higher.**
+
 ## Installation
 
 ```bash
