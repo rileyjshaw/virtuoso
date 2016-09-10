@@ -23,7 +23,7 @@ const fs = require('fs');
 
 const inquirer = require('inquirer');
 const {parseMidi} = require('midi-file');
-const midi = require('./node-midi/midi.js');
+const midi = require('midi');
 
 // Helpers
 const isType = a => ({type}) => type === a;

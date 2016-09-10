@@ -13,9 +13,7 @@ Works best with MIDI keyboards, but you can use your computer keyboard too!
 ```bash
 git clone https://github.com/rileyjshaw/virtuoso.git
 cd virtuoso
-git submodule init
-git submodule update
-npm i && npm i --prefix node-midi
+npm i
 ```
 
 ## Usage
@@ -47,9 +45,6 @@ node index.js ./star_wars.mid
  instrument's stream so that you don't get double notes. I included a [sample
  MidiPipe configuration](./block_keyboard.mipi) that does the trick. [You can
  download MidiPipe here](http://www.subtlesoft.square7.net/MidiPipe.html).
- - I bundled in a copy of [node-midi]
- (https://github.com/justinlatimer/node-midi) because I'm waiting
- for a PR to make it to npm. I'll clear it out once that propagates :)
 
 -------------------------------------------------------------------------------
 

@@ -28,6 +28,7 @@
 	"homepage": "https://github.com/rileyjshaw/virtuoso#readme",
 	"dependencies": {
 		"inquirer": "^1.0.3",
+		"midi": "^0.9.5",
 		"midi-file": "^1.0.2"
 	}
 }
