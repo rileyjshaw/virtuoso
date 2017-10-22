@@ -1,7 +1,9 @@
 {
 	"name": "virtuoso",
 	"version": "1.0.0",
-	"engines" : {"node" : ">=6.0.0"},
+	"engines": {
+		"node": ">=6.0.0"
+	},
 	"description": "Play a .mid file at your own speed using a MIDI keyboard!",
 	"main": "./index.js",
 	"scripts": {
